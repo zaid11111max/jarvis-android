@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Jarvis</string>
+    <string name="accessibility_description">Jarvis uses accessibility to launch apps, navigate inside them, and enforce keyword lockdown.</string>
+</resources>
