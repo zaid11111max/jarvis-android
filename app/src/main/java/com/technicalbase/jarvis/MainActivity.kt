@@ -34,7 +34,6 @@ class MainActivity : AppCompatActivity() {
             setOnClickListener {
                 requestNotifications()
                 val i = Intent(this@MainActivity, ForegroundService::class.java)
-                i.action = ForegroundService.ACTION_START
                 ContextCompat.startForegroundService(this@MainActivity, i)
                 status.text = "Jarvis v0.1.0\n\nServer: starting on 127.0.0.1:8766"
             }
